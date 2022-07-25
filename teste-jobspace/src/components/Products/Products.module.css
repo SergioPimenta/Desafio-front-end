@@ -1,0 +1,41 @@
+.CardProducts{
+    background-color: #f8f8f8;
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    align-items: center;
+    border-radius: 15px;
+    
+    
+}
+h2{
+    font-size: 19px;
+}
+
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 150px;
+}
+button{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+span{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.Description{
+    height: 150px;
+    text-align: justify;
+    margin: 0 10px 0 10px;
+}
